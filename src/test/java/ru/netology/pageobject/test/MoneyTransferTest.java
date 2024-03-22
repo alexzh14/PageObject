@@ -1,10 +1,15 @@
 package ru.netology.pageobject.test;
 
+import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
 import ru.netology.pageobject.data.DataHelper;
 import ru.netology.pageobject.page.DashboardPage;
 import ru.netology.pageobject.page.LoginPage;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertAll;
